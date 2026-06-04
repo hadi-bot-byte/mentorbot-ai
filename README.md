@@ -1,4 +1,4 @@
-### Mentorbot-ai
+# Mentorbot-ai
 ## Overview
 Mentorbot-AI is an AI-powered counselling and mentorship chatbot. It provides supportive, empathetic conversations and practical guidance to help users navigate personal, academic, and career challenges. The project combines natural language processing with counselling principles to make mentorship and emotional support more accessible and available anytime.
 
