@@ -1,47 +1,16 @@
-# Mentorbot-ai
-## Overview
-Mentorbot-AI is an AI-powered counselling and mentorship chatbot. It provides supportive, empathetic conversations and practical guidance to help users navigate personal, academic, and career challenges. The project combines natural language processing with counselling principles to make mentorship and emotional support more accessible and available anytime.
+# React + Vite
 
-## Features
-- Conversational support with empathetic dialogue  
-- Mentorship guidance for personal growth and career development  
-- Wellbeing focus with healthy coping strategies  
-- Privacy and safety through non-harmful interactions  
-- Always available for quick support  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Getting Started
-Clone the repository and install dependencies to run Mentorbot-AI locally.
+Currently, two official plugins are available:
 
-```bash
-git clone https://github.com/USERNAME/mentorbot-ai.git
-cd mentorbot-ai
-pip install -r requirements.txt
-python app.py
-## Usage
-Example prompts you can try:
-- "How do I manage exam stress?"
-- "Can you guide me on career planning?"
-- "I need motivation to stay consistent with my goals."
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Tech Stack
-- **Language Models**: GPT-based or similar for natural conversation  
-- **Backend Framework**: Flask, FastAPI, or Node.js  
-- **Frontend (Optional)**: Web or mobile interface  
-- **Database**: For storing user sessions and resources  
+## React Compiler
 
-## Future Plans
-- Integration with mentorship networks and wellbeing resources  
-- Multi-language support for global accessibility  
-- Personalized guidance based on user goals  
-- Deployment as a web app and mobile app  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.  
-For major changes, open an issue first to discuss what you would like to change.
+## Expanding the ESLint configuration
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgements
-- Inspired by the need for accessible counselling and mentorship tools  
-- Built with a focus on empathy, privacy, and user wellbeing.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
